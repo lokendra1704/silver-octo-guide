@@ -1,4 +1,5 @@
-# Generators
+# Notes
+## <b>Generators</b>
 
 <p>The function with yield is called a generator function
 </p>
@@ -7,14 +8,19 @@
 </p>
 <p>Functions which have entry and exit points are called as Coroutines</p>
 
+<br>
+
 ## <b>Iterator Protocol</b>
 
 Any object in Python can be a iterator. It just needs to define proper `__iter__` and `__next__` methods.
 
 ##### Note: Bottleneck Alert! Don't use file.readlines() in a program if you want to make it scalable or in coroutines because it takes all the data of text file and splits by "\n". Better option would be next(file_handle) or `for line in file:`
 
+<br>
+
 ## <b>Scalabale Composability</b>
 <p>When you design componenets in your applications that are themselves scalable, that can handle increasing magnitude of data gracefully and scalably and, They can be composed together to create other scalable components to create internal data processing pieplines.</p>
+<br>
 
 ## <b>Record Mapping</b>
 <p> You can think of generator's functions as mapping one stream of records to another stream

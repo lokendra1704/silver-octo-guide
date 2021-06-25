@@ -3,4 +3,5 @@ def gen_squares(max_root):
         yield i**2
 
 squares = gen_squares(10)   #Returns a Generator Object
-type(squares)
+print(type(gen_squares))
+print(type(squares))
